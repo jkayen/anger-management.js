@@ -13,7 +13,6 @@ var port = 8000;
 var camera = new av.Camera();
 var capture = camera.capture();
 
-
 // capture.on('data', function(data) {
 //   fs.writeFile(path.join(__dirname, 'captures/image.jpg'), data);
 // });
@@ -36,7 +35,7 @@ const mood = () => {
   return num > .75 ? 'angry' : 'happy';
 }
 
-
+module.exports = {mood};
 // // Imports the Google Cloud client library
 // const Vision = require('@google-cloud/vision');
 

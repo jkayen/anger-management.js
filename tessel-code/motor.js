@@ -10,11 +10,12 @@ to the console at each movement.
 
 var tessel = require('tessel');
 var servolib = require('servo-pca9685');
+var camera = require('./camera.js');
 
 var servo = servolib.use(tessel.port['A']);
 
 var servo1 = 1; // We have a servo plugged in at position 1
-var status;
+
 servo.on('ready', function () {
   var position = 0;  //  Target position of the servo between 0 (min) and 1 (max).
 
@@ -37,7 +38,8 @@ servo.on('ready', function () {
     // }, 500); // Every 500 milliseconds
     //while (true === true) {
       //if(status === 'sad'){
-      if(status === 'angry') rotate()
+        var mood = camera();
+      if(mood === 'angry') rotate()
         //oscillate()
     else{
       setTimeout(rotateBack, 2000)
@@ -50,7 +52,7 @@ servo.on('ready', function () {
     // rotateBack()
   });
 });
-function doOscillation(i ){
+function doOscillation(i){
   var way = i % 2
   if(way === 0) servo.move(servo1, 0.40)
   else servo.move(servo1, 0.60)
@@ -90,3 +92,5 @@ function rotateBack(){
   // setTimeout(servo.move(servo1, 0), 1000);
   //position = 0.5
 }
+
+
