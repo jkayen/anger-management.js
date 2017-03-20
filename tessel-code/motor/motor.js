@@ -35,42 +35,58 @@ servo.on('ready', function () {
     //     position = 0; // Reset servo position
     //   }
     // }, 500); // Every 500 milliseconds
-    while (true === true) {
-      if(status === 'sad'){
-        rotate()
-        oscillate()
-      }
-      else{
-        rotateBack()
-      }
+    //while (true === true) {
+      //if(status === 'sad'){
+      if(status === 'angry') rotate()
+        //oscillate()
+    else{
+      setTimeout(rotateBack, 2000)
     }
+      //setTimeout(rotateBack, 2000)
+
+
     // rotate()
     // oscillate()
     // rotateBack()
   });
 });
-function rotate(){
-    console.log('Rotate front')
-    //console.log('Position (in range 0-1):', position);
-    //  Set servo #1 to position pos.
-    servo.move(servo1, 0.5);
-    position = 0.5
+function doOscillation(i ){
+  var way = i % 2
+  if(way === 0) servo.move(servo1, 0.40)
+  else servo.move(servo1, 0.60)
+}
 
-
+function rotate(position){
+    console.log('Rotate front, sad')
+    servo.move(servo1, 1.0)
+    setTimeout(servo.move(servo1, 1.0), 250)
+    setTimeout(servo.move(servo1, 1.0), 250)
+    setTimeout(servo.move(servo1, 1.0), 250)
+    setTimeout(servo.move(servo1, 1.0), 250)
+    //servo.move(servo1, 1.0)
+    // setTimeout(servo.move(servo1, 1.0), 1000);
+    // setTimeout(servo.move(servo1, 1.0), 1000);
+    //position = 0.5
 }
 
 function oscillate (){
   for(var i = 0; i < 20; i++){
-    var way = i % 2
-    if(way === 0) servo.move(servo1, 0.40)
-    else servo.move(servo1, 0.60)
+    setInterval(doOscillation(i), 250)
+    // var way = i % 2
+    // if(way === 0) servo.move(servo1, 0.40)
+    // else servo.move(servo1, 0.60)
   }
 }
 
 function rotateBack(){
-  console.log('Rotate back')
-  //console.log('Position (in range 0-1):', position);
-  //  Set servo #1 to position pos.
-  servo.move(servo1, -0.5);
-  position = 0.5
+  console.log('Rotate back, happy')
+  servo.move(servo1, 0)
+  setTimeout(servo.move(servo1, 0), 250)
+  setTimeout(servo.move(servo1, 0), 250)
+  setTimeout(servo.move(servo1, 0), 250)
+  setTimeout(servo.move(servo1, 0), 250)
+  //servo.move(servo1, 0)
+  // setTimeout(servo.move(servo1, 0), 1000);
+  // setTimeout(servo.move(servo1, 0), 1000);
+  //position = 0.5
 }
