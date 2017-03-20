@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "silicon-comfort-162119",
+  "private_key_id": "e951bb9b0a3e12307e311cbbc5df515400ccfbb5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4qBsUVHID6lJs\nA5/Dghcns2NmPu5M4oz30mGFmEebX9FWeHk+H4SQTev0qqYXboyFZU6ZOjvl4j54\nUJI9FqUH5eLgHikkN7k96PxSrlhYkemdL0Il/r1cEOuxEVZjrqnOKuFhCje+CrKg\nurxEm/BwgKxLmfnVtOO2dMTgU4AelVh1ERYpzQq7IROUcllrihF/xbcnCp9nDb5e\n9RD2BwfXnyih2y1wJCBAahz5gIwyNi3k7tFe/ai0ibrETyyDjIQK02mtXInBLoYw\nj2AbJCKXdFQJSqdaM6I3hoRUET41HyVfIeJIa0mb1vfZWLey3DyTdKPl03FWdxsO\niW8p9TS5AgMBAAECggEBAJZIMim8hEJNfSDtXiQGhwPHilkXVGf8ZU/3x2irw3Nf\nawad68a0bfXnhOZNz/j3/qM+DNbFvyPbmo3evPW8rTkdTiSqRz9znm4VZO2BeOM0\ndVV4tbQoe0InfzpPauibqRTibyTD5RPkrvYCo+COrQNSpWat/NeBbWX76JLNQlMg\nRCrz8Qqf+Vm+rncEoZ5m4eii2doKh93i43KO70IbllMHsJXT1JKT1HJ2Ehu0pWC2\nqBEFzcHAkTCe6QfrPaq1xs3penqtZSv781MS2b6q84FxW0T76mULDOQ4kRNf97lK\nsO3mnMFa2zlKZg7nBPhxfcW4zpt9ts3RWTWumcvEJ9ECgYEA5m+E+REGezTxUMdm\n5B3BJWeU377DhZWuPQfrLPq+/lMjJ+tc4SFVKaTskUZ9euU/jpFW9b+8XGegSv6V\nOpmj1BRFOrQhBLgypTUbvyHQ1oDLtzfV7+fVldnxpkB7AXmPwUrsCj4P3xXXWoGb\nn/eN41j38ah6xcOKl+JSLH0F9d0CgYEAzSRxOJxOQwdDkXPCxhUGvswqSGHqlTXo\nez4FWxIedJ+93GQq29Nb588AtpDx8l6txOyEH2otw3/UwapH0MvVAtN7nJeszV1C\nvpZyUvyExD8RVoQKiVYl4gRKgnN6sQNVF9QbrrwSUHmUKajd+dFh32DS9sSUkFo5\ngjGFOVfcUo0CgYEAyc+ZMVhLyNORFCHOZrH4Wf3hUCMNsYxpUGIDAR2I78t32poy\neahroVEjLggCFQN5Ki73bbpCCNtocsWLhArShAZMqyDeWffHwxBEAJxo/bNGtmtc\nHgN39wksrWGDWMNRtwMavc2ksMe8FzOzS+HOjfF5FFdtTo32bxZyySulcLECgYBU\nAfZzrl7GSDU9XWCH6ZhnjghKt/5uuDLKNW3QC615KOmBVWvPtdBPL5AlM1pBXNBg\nclLw4nR3OOQRov/h23cRvzVBvUNAnk506ftLTKm6C/G3sj72WtcMpaE1psC5uJmi\nNnRXrCD7363zGXo9kac46Ne7wmjsbGZckJb0EqzhCQKBgA3w77aiYlSf0Oi4XGJd\nl79cXXCKR0xPpkvcpSfN8eDAnUGCVECcgzgDOI1HWQSOR1hiGSjABrWyNV9uGJDK\naxk/Lj9RX+AJ+HL5/JpopLoW6X2xk0U9+iz3wHd+9MCFw81zwS08WgmEzOzRpPik\nRwIUlKyKf0eU/3uaEJzEgI0c\n-----END PRIVATE KEY-----\n",
+  "client_email": "anger-management@silicon-comfort-162119.iam.gserviceaccount.com",
+  "client_id": "114768936108905956787",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/anger-management%40silicon-comfort-162119.iam.gserviceaccount.com"
+}
